@@ -1,0 +1,36 @@
+# Arquivos temporários
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# Arquivos de compilação
+bin/
+target/
+
+# Arquivos de configuração específicos para IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+
+# Arquivos de dependência gerados pelo Maven
+dependency-reduced-pom.xml
+.mvn/
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos de configuração do sistema
+*.properties
+
+# Arquivos de backup
+*~
+
+# Diretórios gerados
+release/
