@@ -1,3 +1,9 @@
+/**
+ * Está classe controla uma tv com operações básicas
+ * @author João Pedro
+ * @since 07/05/2024
+ * 
+ */
 public class TV {
 
     private boolean isOn = false;
@@ -37,6 +43,12 @@ public class TV {
 
     }
 
+    /**
+     * <h1>Trocar Canal</h1>
+     * Este método troca o canal da tv.
+     * @param channel Novo Canal
+     * @return Canal Atualizado
+     */
     public int changeChannel(int channel) {
 
         this.channel = channel;
